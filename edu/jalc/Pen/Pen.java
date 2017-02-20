@@ -1,24 +1,24 @@
-package lab.pen;
+package edu.jalc.pen;
 
 public class Pen{
    private final double LENGTH;
-   private PenCap penCap;
+   private PenType penType;
    private Ink ink;
 
    private Pen() throws Exception{
      this.LENGTH = 0;
-     this.setPenCap(null);
-     this.ink= null;
+     this.setPenType(null);
+     this.setInk(null);
    }
 
-   Pen(double LENGTH, PenCap penCap, Ink ink)throws Exception{
+   Pen(double LENGTH, PenType penType, Ink ink)throws Exception{
      this.LENGTH = LENGTH;
-     this.setPenCap(penCap);
+     this.setPenType(penType);
      this.setInk(ink);
    }
-   Pen setPenCap(PenCap penCap)throws Exception{
-     if (penCap == null) throw new Exception("PenCap must have a value!");
-     this.penCap = penCap;
+   Pen setPenType(PenType penType)throws Exception{
+     if (penType == null) throw new Exception("PenType must have a value!");
+     this.penType = penType;
      return this;
    }
    Pen setInk (Ink ink){
