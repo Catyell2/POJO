@@ -1,18 +1,18 @@
 package edu.jalc.pen;
 
 public class Pen{
-   private final double LENGTH;
+   private final double length;
    private PenType penType;
    private Ink ink;
 
    private Pen() throws Exception{
-     this.LENGTH = 0;
+     this.lenght = 0;
      this.setPenType(null);
      this.setInk(null);
    }
 
-   Pen(double LENGTH, PenType penType, Ink ink)throws Exception{
-     this.LENGTH = LENGTH;
+   Pen(double lenght, PenType penType, Ink ink)throws Exception{
+     this.lenght = lenght;
      this.setPenType(penType);
      this.setInk(ink);
    }

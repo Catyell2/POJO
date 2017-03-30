@@ -1,4 +1,4 @@
-package edu.jalc.type;
+package edu.jalc.pen.type;
 
 public class PenType{
   private PenCap penCap;

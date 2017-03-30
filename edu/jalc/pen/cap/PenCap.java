@@ -1,4 +1,4 @@
-package edu.jalc.cap;
+package edu.jalc.pen.cap;
 
 public class PenCap{
   private boolean hasPenCap;
@@ -10,5 +10,5 @@ public class PenCap{
   PenCap(boolean hasPenCap){
     this.hasPenCap = hasPenCap;
   }
-  
+
 }

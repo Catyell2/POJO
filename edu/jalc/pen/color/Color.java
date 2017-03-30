@@ -1,4 +1,4 @@
-package edu.jalc.color;
+package edu.jalc.pen.color;
 
 public class Color{
   private byte red;

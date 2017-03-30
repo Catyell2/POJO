@@ -1,4 +1,4 @@
-package edu.jalc.isfull;
+package edu.jalc.pen.isfull;
 
 public class IsFull{
   private boolean full;

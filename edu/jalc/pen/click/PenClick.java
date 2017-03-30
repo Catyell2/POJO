@@ -1,4 +1,4 @@
-package edu.jalc.click;
+package edu.jalc.pen.click;
 
 public class PenClick{
   private boolean clicked;

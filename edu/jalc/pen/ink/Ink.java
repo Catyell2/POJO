@@ -1,4 +1,4 @@
-package edu.jalc.ink;
+package edu.jalc.pen.ink;
 
   public class Ink{
   private Color color;
