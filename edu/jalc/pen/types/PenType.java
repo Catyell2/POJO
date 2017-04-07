@@ -1,6 +1,6 @@
 package edu.jalc.pen.type;
 
-public class PenType{
+public class PenType extends Pen{
   private PenCap penCap;
   private PenClick penClick;
 
