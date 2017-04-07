@@ -1,25 +1,14 @@
-package edu.jalc.pen.type;
+package edu.jalc.pen.types;
+import edu.jalc.pen.enclosure.cap.PenCap;
+import edu.jalc.pen.enclosure.click.PenClick;
+
 
 public class PenType extends Pen{
-  private PenCap penCap;
-  private PenClick penClick;
+  PenType penType = new PenType();
 
-  private PenType(){
-    this.setPenCap(null);
-    this.setPenClick(null);
-  }
-  PenType(PenCap penCap, PenClick penClick){
-    this.setPenCap(penCap);
-    this.setPenCLick(penClick);
-  }
-  PenType setPenCap( PenCap penCap){
-    this.penCap = penCap;
-    return this;
-  }
-  PenType setPenCLick(PenClick penClick){
-    this.penClick = penClick;
-    return this;
-  }
+  PenType(){
+    this.PenCap= PenCap();
+    this.PenClick= PenClick();
 
-
-}
+    }
+  }

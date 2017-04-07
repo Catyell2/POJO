@@ -4,7 +4,7 @@ public class Color extends Ink{
 
 
   public Color(){
-    super.getColor();
+    this.getColor();
   }
   public void getColor(){
     System.out.println("I got a Color");

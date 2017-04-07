@@ -1,7 +1,9 @@
 package edu.jalc.pen.ink;
 
-  abstract public class Ink{
-    abstract public void getColor();
+  public class Ink{
+    public void getInk(){
+      System.out.println("I have Ink");
+    }
 
 
 }

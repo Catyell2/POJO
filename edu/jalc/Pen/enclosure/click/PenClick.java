@@ -1,14 +1,17 @@
-package edu.jalc.pen.click;
+package edu.jalc.pen.enclosure.click;
 
 public class PenClick{
-  private boolean clicked;
+  private boolean canClick;
 
-  private PenClick(){
-    this.clicked = false;
+  public void PenCLick(){
+    this.canClick = true;
+    if(canClick= true){toString();}
 
   }
-  PenClick(boolean clicked){
-    this.clicked = clicked;
+  public PenClick(boolean canClick){
+    this.canClick = canClick;
   }
-
+  public String toString(){
+    return "This Pen can click";
+  }
 }
