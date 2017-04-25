@@ -1,6 +1,6 @@
 package edu.jalc.pen;
 
-public class Pen{
+public class Pen implements Writeable{
    private final double length;
    private PenType penType;
    private Ink ink;
