@@ -25,6 +25,7 @@ public class Pen implements Writeable{
      this.ink = ink;
      return this;
    }
+   public void write(){System.out.println("I wrote")}
 
 
 
